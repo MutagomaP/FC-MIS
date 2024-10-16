@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: 'Montserrat', Sans-serif;
+}
+.bg-button {
+   /* Initial background color */
+    transition: background-color 0.3s ease;
+  }
+  
+  .text-white {
+    transition: color 0.3s ease;
+  }
+  
