@@ -1,13 +1,19 @@
 import React from 'react'
 import MenuBar from '../dashboard/MenuBar'
-import ClubsDashboard from './clubsdash'
+//import { ClubsDashboard } from './clubsdash'
+import GlobalHeader from '../dashboard/GlobalHeader'
+import { FootballClubs } from './clubsdash'
+
 
 const Clubs = () => {
   return (
     <div>
-        <div className='flex flex-row'>
+        <GlobalHeader/>
+        <div className='flex'>
             <MenuBar/>
-            <ClubsDashboard/>
+            <div className='flex-1'>
+                <FootballClubs/>
+            </div>
         </div>
     </div>
   )

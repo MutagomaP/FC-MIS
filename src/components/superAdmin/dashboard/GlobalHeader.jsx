@@ -1,9 +1,8 @@
 import React from 'react'
 import user from '../../../assets/user.png'
-import Statistics from './Statistics';
 
 
-function Header() {
+function GlobalHeader() {
   return (
     <div className='pl-2 bg-[#F5F5F5]'>
       <div className='bg-white h-[65px] min-w-[1329px]'>
@@ -17,14 +16,10 @@ function Header() {
         <img src={user} alt="" className='w-[40px] h-[40px] relative bottom-2' />
       </div>
         </div>
-
       </div>
-      <div>
-      <Statistics></Statistics>
-    </div>
     </div>
      
   )
 }
 
-export default Header;
+export default GlobalHeader;
