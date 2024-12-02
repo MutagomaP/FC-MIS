@@ -21,6 +21,15 @@ const clubs = [
     status: "Active"
   },
   {
+    id: 2,
+    name: "APR FC",
+    president: "Robert Johnson",
+    email: "robert.j@arsenal.com",
+    members: 1240,
+    dateJoined: "2024-01-10",
+    status: "Active"
+  },
+  {
     id: 3,
     name: "Liverpool FC",
     president: "Michael Brown",
